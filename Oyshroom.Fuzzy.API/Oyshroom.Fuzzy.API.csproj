@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0ed7f864-7fb9-4b71-96fb-668a20413343</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+    <PackageReference Include="Syncfusion.XlsIO.Net.Core" Version="19.2.0.46" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oyshroom.Data\Oyshroom.Data.csproj" />
+    <ProjectReference Include="..\Oyshroom.Domain\Oyshroom.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>

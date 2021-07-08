@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oyshroom.Fuzzy.API", "Oyshroom.Fuzzy.API\Oyshroom.Fuzzy.API.csproj", "{8473C4C5-C650-44E4-8528-DBD80028B88C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oyshroom.Data", "Oyshroom.Data\Oyshroom.Data.csproj", "{1F011127-80C2-499E-8AD1-02CED2608572}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oyshroom.Domain", "Oyshroom.Domain\Oyshroom.Domain.csproj", "{4B80A2DC-0186-458F-B8E9-91C671F88FCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oyshroom.Fuzzy.API.Tests", "Oyshroom.Fuzzy.API.Tests\Oyshroom.Fuzzy.API.Tests.csproj", "{CB4B23B9-21E8-406B-BF0C-7671B6FF551E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8473C4C5-C650-44E4-8528-DBD80028B88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8473C4C5-C650-44E4-8528-DBD80028B88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8473C4C5-C650-44E4-8528-DBD80028B88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8473C4C5-C650-44E4-8528-DBD80028B88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F011127-80C2-499E-8AD1-02CED2608572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F011127-80C2-499E-8AD1-02CED2608572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F011127-80C2-499E-8AD1-02CED2608572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F011127-80C2-499E-8AD1-02CED2608572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B80A2DC-0186-458F-B8E9-91C671F88FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B80A2DC-0186-458F-B8E9-91C671F88FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B80A2DC-0186-458F-B8E9-91C671F88FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B80A2DC-0186-458F-B8E9-91C671F88FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB4B23B9-21E8-406B-BF0C-7671B6FF551E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB4B23B9-21E8-406B-BF0C-7671B6FF551E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB4B23B9-21E8-406B-BF0C-7671B6FF551E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB4B23B9-21E8-406B-BF0C-7671B6FF551E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB89F210-D9F7-4872-8C4F-F90E5023E098}
+	EndGlobalSection
+EndGlobal
